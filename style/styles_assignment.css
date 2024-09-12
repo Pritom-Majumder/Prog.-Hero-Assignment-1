@@ -80,6 +80,7 @@ text-align: center;
 padding: 30px;
  }
 
+/* WHY BOX */
 #why-box{
    width: 1000 px;
    margin: 70px 150px;
@@ -137,7 +138,6 @@ opacity: 0.7;
 color: #0D1321;
 }
 .card .img1 {
-   /* position: absolute; */
    float: right;
    width: 280px;
    height: auto;
@@ -157,7 +157,6 @@ letter-spacing: 0%;
 gap: 10px;
 
 }
-
 .Change-why-card .why-title1 {
    color: rgba(13, 19, 33, 0.7);
    font-family: Azeret Mono;
@@ -182,14 +181,50 @@ gap: 10px;
    color: #0D1321;
 }
 .card .img3 {
-   /* position: absolute; */
    float: right;
    width: 320px;
    height: auto;
    margin-right: 20px;
 }
 
+/* Inspiration styles */
+.inspiration{
+   width: 1208px;
+   margin: 88px 150px;
+}
 
- 
- 
- 
+.inspiration .title{
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.inspiration .sub-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+padding-bottom: 50px;
+}
+
+.inspiration .video-cover{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;  
+padding: 32px;
+/* margin: 88px 0px; */
+/* gap: 10px; */
+}
+.inspiration .video-cover .video{
+   border-radius: 24px;
+   overflow: hidden; 
+}
+  
