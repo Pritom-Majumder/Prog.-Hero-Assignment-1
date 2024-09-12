@@ -37,7 +37,7 @@ text-align: center;
 /* padding: 270px 0 px 170px 0 px; */
 /* margin-top: 32px; */
  } 
- #hero .banner .description{
+ #hero .banner .sub-title{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -48,6 +48,18 @@ text-align: center;
 opacity: 0.7;
 padding-top: 24px;
  }
+
+  /* .section-title{
+    font-size: 35px;
+    font-weight:bolder;
+    color: #0D1321;
+ }
+ .section-description{
+    font-size: 16px;
+    color:rgba(13, 19, 33, 1)
+ }  */
+
+
 /* Button */
   .btn-container{
     text-align: center;
@@ -66,16 +78,118 @@ line-height: 18px;
 letter-spacing: 0%;
 text-align: center;
 padding: 30px;
-    /* border-radius: 8px;
-    background: rgb(13, 19, 33);
-    display: flex;
-    color: rgb(255, 255, 255);
+ }
+
+#why-box{
+   width: 1000 px;
+   margin: 70px 150px;
+   background: rgba(13, 19, 33, 0.02);
+   border-radius: 16px;
+}
+.why-container{
+   padding: 80px 95px;
+}
+#why-box .title{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+#why-box .title .sub-title{
+   color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+#why-box .why-card , .why-card1{
+   padding: 48px 174px;
+  
+}
+.why-title{
+   color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+color: #0D1321B3;
+ padding-bottom: 14px; 
+
+}
+ .why-card .why-discription{ 
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+color: #0D1321;
+}
+.card .img1 {
+   /* position: absolute; */
+   float: right;
+   width: 280px;
+   height: auto;
+   margin-right: 20px;
+}
+.card .btn {
+   padding: 60px 40px;
+opacity: 0.7;
+margin: 32px 0px;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
-text-align: center; */
+gap: 10px;
 
- }
+}
+
+.Change-why-card .why-title1 {
+   color: rgba(13, 19, 33, 0.7);
+   font-family: Azeret Mono;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 20px;
+   letter-spacing: 0%;
+   text-align: left;
+   color: #0D1321B3;
+    padding-bottom: 14px; 
+   
+}
+.Change-why-card .why-discription1 {
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   opacity: 0.7;
+   color: #0D1321;
+}
+.card .img3 {
+   /* position: absolute; */
+   float: right;
+   width: 320px;
+   height: auto;
+   margin-right: 20px;
+}
+
+
+ 
+ 
  
