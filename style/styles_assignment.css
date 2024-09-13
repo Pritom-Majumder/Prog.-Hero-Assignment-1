@@ -227,4 +227,84 @@ padding: 32px;
    border-radius: 24px;
    overflow: hidden; 
 }
+/* My targets styles*/
+
+.skills{
+  max-width: 1208px;
+   margin: 140px 150px;
+}
+.skills .sub-title{
+   padding-top: 25px;
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.text-center{
+   text-align: center;
+}
+.skills .skill-container{
+   display: flex;
+   padding-top: 50px; 
+   gap: 24px;
+   /* width: 1208px; */
+  /* background-color: #FF4C1E0D;
+  border-radius: ; */
+  /* border-radius: 16px; */
+}
+.different-btg1{
+   border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+/* width: 385px; */
+   /* background-color: #FF4C1E0D; */
+}
+.different-btg2{
+   border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.different-btg3{
+   border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.skill{
+   padding: 40px;
+   /* width: 385px; */
+}
+.skill-title{
+   padding-bottom:8px ;
+}
+.skill .skill-description{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+/* gap: 8; */
+padding-bottom:24px ;
+}
+.skill-img{
+   padding-bottom: 24px;
+}
+
+.skill  .dark-2{
+    /* padding-top: 24px;  */
+   color: #0D1321;
+    /* margin: 24px 0px; */
+    gap: 24px;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
   
